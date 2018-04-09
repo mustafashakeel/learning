@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 40. -->
+
+<?xml-stylesheet 
+type = "text/css" href = "history.css" ?>
+
+<!DOCTYPE doc SYSTEM "history.dtd" >
+
+<doc>
+	<para>Both &html; and &xml; are derived from &sgml; which is, in turn, a descendant of the &gml; that was developed in the 1960s by IBM. </para>
+
+</doc>

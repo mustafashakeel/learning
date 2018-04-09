@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 21. -->
+
+<?xml-stylesheet type = "text/css" href = "latte.css" ?>
+
+<coffee>
+
+<!-- Italian original. -->
+<it>Caffe e latte</it>
+<!-- Replace "e" in caffe with &#0232; -->
+
+
+<!-- Literal English translation.-->
+<en>Coffee and milk</en>
+<!-- Replace "and" with &amp; -->
+
+<!-- Familiar English term. -->
+<fam>Latte</fam>
+
+</coffee>

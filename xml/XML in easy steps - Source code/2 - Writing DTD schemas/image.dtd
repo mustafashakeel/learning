@@ -1,0 +1,9 @@
+<!ELEMENT desc (#PCDATA)>
+<!ELEMENT src (#PCDATA)>
+<!ELEMENT alt (#PCDATA)>
+
+<!ELEMENT doc (desc, image+)>
+
+<!ELEMENT image (src | alt)>
+
+

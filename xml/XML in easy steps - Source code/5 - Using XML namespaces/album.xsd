@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 86. -->
+
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+xmlns:tns="http://www.ineasysteps.com/xsd" 
+targetNamespace="http://www.ineasysteps.com/xsd">
+
+<xsd:include schemaLocation = "library.xsd" />
+
+<xsd:element name="artist" type="xsd:string"/>
+
+<xsd:element name="discography" type="tns:discoType"/>
+<xsd:element name="album" type="tns:strIdType"/>
+
+
+
+<xsd:complexType name="discoType">
+	<xsd:sequence>
+		<xsd:element ref="tns:artist"/>
+		<xsd:element ref="tns:album" maxOccurs="20"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+
+</xsd:schema>

@@ -1,0 +1,22 @@
+﻿<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!-- XML in easy steps - Page 23. -->
+
+<doc>
+	<memo 	id = "7" 
+		title = "Reminder" 
+		from = "Mike" 
+		msg = "Never use attributes for content data!" >
+	</memo>
+
+<!-- Becomes...
+
+<memo 	id = "7">
+	<title>Reminder</title> 
+	<from>Mike</from> 
+	<msg>Never use attributes for content data!</msg>
+</memo>
+
+-->
+
+</doc>

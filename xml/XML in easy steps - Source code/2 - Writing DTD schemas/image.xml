@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 34. -->
+
+<!DOCTYPE doc SYSTEM "image.dtd" >
+
+<doc>
+	<desc>The new Dodge Challenger was designed around its muscle car ancestor, but with a twist of modern technology.</desc>
+	
+	<image>
+		<src>front-quarter.jpg</src>
+		<!-- <alt>Exterior shot of the new Dodge Challenger</alt> -->
+	</image>
+
+	<image>
+		<!-- <src>front-interior.jpg</src> -->
+		<alt>Inside the leather high-back seats have a sunken ribbed look, just like the seats which came in the 1970 Challenger.</alt>
+	</image>
+
+</doc>

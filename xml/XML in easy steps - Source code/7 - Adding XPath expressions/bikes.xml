@@ -1,0 +1,41 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!-- XML in easy steps - Page 117. -->
+
+<?xml-stylesheet type = "text/xsl" href = "sibling.xsl" ?>
+
+<bike:doc 
+xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation = "http://www.ineasysteps.com/xsd bikes.xsd"
+xmlns:bike = "http://www.ineasysteps.com/xsd">
+
+	<bike:item id = "electraglide">
+		<bike:make>Harley Davidson</bike:make>
+		<bike:model>Electra Glide</bike:model>
+		<bike:ltr>1.584</bike:ltr>
+		<bike:cyl>2</bike:cyl>
+		<bike:drive>belt</bike:drive>
+		<bike:price>16095</bike:price>
+	</bike:item>
+
+	<bike:item id = "goldwing">
+		<bike:make>Honda</bike:make>
+		<bike:model>Gold Wing</bike:model>
+		<bike:ltr>1.832</bike:ltr>
+		<bike:cyl>6</bike:cyl>
+		<bike:drive>shaft</bike:drive>
+		<bike:price>19299</bike:price>
+	</bike:item>
+
+	<bike:item id = "r1200rt">
+		<bike:make>BMW</bike:make>
+		<bike:model>R 1200 RT</bike:model>
+		<bike:ltr>1.170</bike:ltr>
+		<bike:cyl>2</bike:cyl>
+		<bike:drive>shaft</bike:drive>
+		<bike:price>17075</bike:price>
+	</bike:item>
+
+	
+
+</bike:doc>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 153. -->
+
+<catalog>
+
+	<book id="1">
+		
+		<!-- Describing this book. -->
+
+		<title>XML in easy steps</title>
+
+		<author>Mike McGrath</author>
+		
+	</book>
+
+</catalog>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 70. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- CUSTOM DATA TYPES. -->
+
+<!-- Create a custom data type to restrict string length. -->
+<xsd:simpleType name="zipType">
+	<xsd:restriction base="xsd:string">
+		<xsd:minLength value="5"/>
+		<xsd:maxLength value="5"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple types. -->
+<xsd:element name = "store" type = "xsd:string" />
+<xsd:element name = "address" type = "xsd:string" />
+
+<!-- Complex types. -->
+<xsd:element name="doc" type="docType"/>
+<xsd:element name="zip" type="zipType"/>
+	
+
+
+<!-- DEFINE STRUCTURE. -->
+<xsd:complexType name="docType">
+	<xsd:sequence maxOccurs="unbounded">
+		<xsd:element ref = "store" />
+		<xsd:element ref = "address" />
+		<xsd:element ref="zip"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+</xsd:schema>

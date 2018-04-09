@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		
+<doc 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.ineasysteps.com/canon canon.xsd" 
+xmlns = "http://www.ineasysteps.com/canon" >
+	
+	<camera>
+		<model>Canon Sureshot</model>
+		<item-code>WP-1</item-code>
+	</camera>
+
+	<camera>
+		<model>Canon Powershot</model>
+		<item-code>G-7</item-code>
+	</camera>
+
+	<camera>
+		<model>Canon Digital</model>
+		<item-code>I-65</item-code>
+	</camera>
+
+</doc>

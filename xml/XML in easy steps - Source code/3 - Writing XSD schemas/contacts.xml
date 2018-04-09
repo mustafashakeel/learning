@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	
+<!-- XML in easy steps - Page 50. -->
+
+<contacts
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="contacts.xsd" >
+
+	<title>Mr</title>
+	<forename>John</forename>
+
+	<!-- Uncomment the next line to break the schema rules. -->
+	<!-- <forename>William</forename> -->
+
+	<surname>Smith</surname>
+
+
+	<forename>Sally</forename>
+	<surname>James</surname>
+
+
+</contacts>

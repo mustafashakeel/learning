@@ -1,0 +1,1 @@
+As the XMLHttpRequest object requests XML data via HTTP you cannot run this example simply by opening the HTML document directyly in your web browser - it must be served by a web server. For instance, with the Apache web server running on your computer copy all files in this directory to Apache's htdocs directory then run this example using http://localhost/topics.html.

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 72. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- CUSTOM DATA TYPES. -->
+	
+<!-- Create a custom data type to restrict digit length. -->
+<xsd:simpleType name="numType">
+	<xsd:restriction base="xsd:decimal">
+		<xsd:fractionDigits value="2"/>
+		<xsd:totalDigits value="5"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+<!-- Create a custom data type to restrict digit pattern - Page 75. -->
+<xsd:simpleType name="ptnType">
+	<xsd:restriction base="xsd:decimal">
+		<xsd:pattern value="(\d){3}(.)(\d){2}"/>
+	</xsd:restriction>
+</xsd:simpleType>
+
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple types. -->
+
+
+<!-- Complex types. -->
+<xsd:element name="doc" type="docType"/>
+
+
+<xsd:element name="num" type="numType"/>
+<!-- Replace the previous line with the one below to revise this example - Page 75. -->
+<!-- <xsd:element name="num" type="ptnType"/> -->
+
+
+<!-- DEFINE STRUCTURE. -->
+
+<xsd:complexType name="docType">
+	<xsd:sequence>
+		<xsd:element ref="num" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+
+</xsd:schema>

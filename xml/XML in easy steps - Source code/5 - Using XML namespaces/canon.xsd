@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.ineasysteps.com/canon" xmlns:c="http://www.ineasysteps.com/canon" >
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple type. -->
+<xsd:element name = "model" type = "xsd:string" />
+<xsd:element name = "item-code" type = "xsd:string" />
+
+<!-- Complex type. -->
+
+<xsd:element name="doc" type="c:docType"/>
+<xsd:element name="camera" type="c:cameraType"/>
+
+
+<!-- DEFINE STRUCTUES. -->
+
+<xsd:complexType name="docType">
+	<xsd:sequence>
+		<xsd:element ref="c:camera" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+	
+<xsd:complexType name="cameraType">
+	<xsd:sequence>
+		<xsd:element ref="c:model" />
+		<xsd:element ref="c:item-code" />
+	</xsd:sequence>
+</xsd:complexType>
+	
+
+</xsd:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
+<!-- sTRUCURE ALLOWING TEXT AND OPTIONAL ID ATTRIBUTE. -->
+
+<xsd:complexType name="strIdType">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:string">
+			<xsd:attribute name="id" type="xsd:string"/>
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+
+
+<!-- DEFINE MORE COMMON STRUCTURES HERE. -->
+
+
+</xsd:schema>

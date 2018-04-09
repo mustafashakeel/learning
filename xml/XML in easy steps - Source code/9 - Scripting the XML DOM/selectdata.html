@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- XML in easy steps - Page 166. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Selecting Specific Data</title>
+<!-- XML in easy steps - p.166-167 -->
+
+<meta http-equiv = "Content-Type" content = "text/html;charset=UTF-8" />
+
+<script type = "text/javascript">
+/* <![CDATA[ */
+ 
+// MIKE'S NOTE: the CDATA tags in these XHTML documents are 
+// enclosed within /* */ to prevent browser detection 
+// while still allowing the XHTML to be validated.
+
+var xmlDoc;
+
+function loadXmlDoc()
+{	
+  try
+  {
+	if (window.ActiveXObject)
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.async = false;
+		xmlDoc.load("books.xml");
+		getXmlData();
+	}
+	else if (document.implementation && document.implementation.createDocument)	
+	{
+		xmlDoc = document.implementation.createDocument("","",null);
+		xmlDoc.load("books.xml");
+		xmlDoc.onload=getXmlData;
+	}
+  }
+  catch(err)
+  {
+
+	document.getElementById("box").innerHTML = "XML data is unavailable";
+  }	
+}
+
+function getXmlData()
+{
+  // Get all <author> element nodes.
+  var nodeList = xmlDoc.getElementsByTagName("author");
+
+  // Declare two variables.
+  var book, data = "Selected books by Mike McGrath:";
+
+  // Loop through all <author> element nodes.
+  for(i=0; i< nodeList.length; i++)
+  {
+    // Test the text node value to match the query string.
+    if(nodeList[i].firstChild.nodeValue == "Mike McGrath") 
+    {
+      // Store the <book> parent node of the matched <author> element.
+      book = nodeList[i].parentNode;
+		
+      // Loop through all child nodes of the stored <book> element.
+      for( j = 0; j < book.childNodes.length; j++ )
+      {
+        // Match only the <title> element node.
+        if( (book.childNodes[j].nodeType ==1) && (book.childNodes[j].nodeName == "title") )
+        {
+          // Append the selected text node value (the title). 
+          data += "<dt>"+ book.childNodes[j].firstChild.nodeValue;
+
+          // Append the selected id attribute value (the ISBN).
+          data += "<dd>" + book.getAttribute("id") ;
+        }	
+      }
+    }
+  }
+  
+  // Display the string.
+  document.getElementById("box").innerHTML = data;
+}
+
+window.onload=loadXmlDoc;
+
+/* ]]> */
+</script>
+
+</head>
+
+<body>
+
+<div id = "box" style= "background:yellow;width:250px;padding:5px"> </div>
+
+</body>
+
+</html>

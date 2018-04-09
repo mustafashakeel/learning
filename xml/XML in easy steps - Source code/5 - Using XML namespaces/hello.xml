@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<!-- XML in easy steps - Page 82. -->
+		
+<ns:doc 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://www.ineasysteps.com/xsd   hello.xsd" 
+	xmlns:ns="http://www.ineasysteps.com/xsd" >
+			
+	<ns:msg>Hello World</ns:msg>
+	
+</ns:doc >

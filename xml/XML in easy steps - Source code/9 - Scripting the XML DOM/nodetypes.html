@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- XML in easy steps - Page 162. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Filtering by Node Type</title>
+<!-- XML in easy steps - p.162-163 -->
+
+<meta http-equiv = "Content-Type" content = "text/html;charset=UTF-8" />
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+// MIKE'S NOTE: the CDATA tags in these XHTML documents are 
+// enclosed within /* */ to prevent browser detection 
+// while still allowing the XHTML to be validated.
+
+var xmlDoc;
+
+function loadXmlDoc()
+{	
+  try
+  {
+	if (window.ActiveXObject)
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.async=false;
+		xmlDoc.load("books.xml");
+		getXmlData();
+	}
+	else if (document.implementation && document.implementation.createDocument)	
+	{
+		xmlDoc = document.implementation.createDocument("","",null);
+		xmlDoc.load("books.xml");
+		xmlDoc.onload=getXmlData;
+	}
+  }
+  catch(err)
+  {
+
+	document.getElementById("box").innerHTML = "XML data is unavailable";
+  }	
+}
+
+function getXmlData()
+{
+	// Get all child nodes under the root element.
+	var nodeList = xmlDoc.documentElement.childNodes;
+
+	// Create a new array to store element nodes.
+	var nodeArr = new Array();
+
+	// Assign only element nodes to the filtered array.
+	for( i = 0; i < nodeList.length; i++ )
+	{
+		if(nodeList[i].nodeType == 1 ) 
+		nodeArr[ nodeArr.length ] = nodeList[i];
+	}
+
+	// Add the filtered array size to a string.
+	var data = "No. of Filtered Nodes: " + nodeArr.length;
+	
+	// Append the node name of each filtered node to the string.
+	for( i = 0; i < nodeArr.length; i++ )
+	{
+		 data += "<li>" + nodeArr[i].nodeName;
+	}
+
+	// Display the string.
+	document.getElementById("box").innerHTML = data;
+}
+
+window.onload=loadXmlDoc;
+
+/* ]]> */
+</script>
+
+</head>
+
+<body>
+
+<div id = "box" style= "background:yellow;width:250px;padding:5px"> </div>
+
+</body>
+
+</html>

@@ -1,0 +1,4 @@
+<!ELEMENT doc (msg) >
+
+<!ELEMENT msg (#PCDATA) >
+

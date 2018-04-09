@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 15. -->
+
+<club>
+
+	<members> 
+
+		<name id = "21" />
+
+		<name id = "22">Mike McGrath</name>
+
+	</members>
+
+</club>

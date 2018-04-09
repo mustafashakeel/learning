@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 38. -->
+
+<!DOCTYPE doc SYSTEM "cactus.dtd" > 
+
+<doc>
+	<cactus id="AZ1">
+	  	<name>Arizona Barrel</name>
+	</cactus>
+
+	<cactus id="AZ2">
+		<name>Arizona Beehive</name>
+	</cactus>
+
+	<cactus id="AZ3">
+		<name>Arizona Fishhook</name>
+	</cactus>
+
+	<cactus id="AZ4">
+		<name>Arizona Hedgehog</name>
+	</cactus>
+
+	<cactus id="AZ5">
+		<name>Arizona Pincushion</name>
+	</cactus>
+
+</doc>

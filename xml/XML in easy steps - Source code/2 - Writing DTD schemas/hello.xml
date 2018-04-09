@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 28. -->
+
+<!DOCTYPE doc SYSTEM "hello.dtd" >
+		
+<doc>	
+	<msg>Hello World!</msg>
+
+	<!-- Uncomment the next line to disobey schema rules. -->
+	<!-- <msg>Bad content</msg> -->
+</doc>

@@ -1,0 +1,3 @@
+element movieList {movie+}
+element review { text }
+element title { attribute rating {text}, text }

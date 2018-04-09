@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 86. -->
+		
+<ns:discography 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.ineasysteps.com/xsd   album.xsd" 
+xmlns:ns="http://www.ineasysteps.com/xsd" >
+
+	<ns:artist>Pink</ns:artist>
+	<ns:album id="2000">Can't Take Me Home</ns:album>
+	<ns:album id="2001">Misundaztood</ns:album>
+	<ns:album id="2003">Try This</ns:album>
+	<ns:album id="2006">I'm Not Dead</ns:album>
+	<ns:album>(...in production)</ns:album>
+
+</ns:discography>
+

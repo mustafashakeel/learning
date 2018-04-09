@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 30. -->
+
+<!DOCTYPE  doc SYSTEM "memo.dtd" >
+
+
+<doc>
+
+	<memo>
+	  
+		<title>End of Month</title>
+	  	<from>Admin</from>
+	  	<to>All Users</to>
+	  	<msg>Passwords will be reset tomorrow.</msg>
+	
+	</memo>
+	
+</doc>
