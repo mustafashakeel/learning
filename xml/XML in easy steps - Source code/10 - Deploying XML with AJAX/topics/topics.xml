@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<!-- XML in easy steps - Page 179. -->
+
+<catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="topics.xsd">
+	<systems>
+		<book id="1-84078-305-2">
+			<title>Linux in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-294-3">
+			<title>Mac OS X in easy steps</title>
+			<author>Nick Vandome</author>
+		</book>
+		<book id="1-84078-316-8">
+			<title>Windows Vista in easy steps</title>
+			<author>Harshad Kotecha</author>
+		</book>
+	</systems>
+	<office>
+		<book id="1-84078-319-2">
+			<title>Word 2007 in easy steps</title>
+			<author>Scott Basham</author>
+		</book>
+		<book id="1-84078-317-6">
+			<title>Excel 2007 in easy steps</title>
+			<author>Michael Price</author>
+		</book>
+		<book id="1-84078-327-3">
+			<title>Powerpoint 2007 in easy steps</title>
+			<author>Andrew Edney</author>
+		</book>
+		<book id="1-84078-320-6">
+			<title>Access 2007 in easy steps</title>
+			<author>Andrew Unsworth</author>
+		</book>
+	</office>
+	<media>
+		<book id="1-84078-298-6">
+			<title>Digital Photography in easy steps</title>
+			<author>Nick Vandome</author>
+		</book>
+		<book id="1-84078-303-6">
+			<title>Digital Scrapbooking in easy steps</title>
+			<author>John Slater</author>
+		</book>
+		<book id="1-84078-331-1">
+			<title>Windows Vista Media Center in easy steps</title>
+			<author>Andrew Edney</author>
+		</book>
+	</media>
+	<web>
+		<book id="1-84078-324-9">
+			<title>HTML in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-301-X">
+			<title>CSS in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-3315-X">
+			<title>JavaScript in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-314-1">
+			<title>Web Design in easy steps</title>
+			<author>Richard Quick</author>
+		</book>
+	</web>
+	<prog>
+		<book id="1-84078-323-0">
+			<title>C Programming in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-259-5">
+			<title>Java in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-301-X">
+			<title>C++ Programming in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-296-X">
+			<title>SQL in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+		<book id="1-84078-329-X">
+			<title>Visual Basic Express in easy steps</title>
+			<author>Mike McGrath</author>
+		</book>
+	</prog>
+	<gfx>
+		<book id="1-84078-300-1">
+			<title>Photoshop CS2 in easy steps</title>
+			<author>Robert Shufflebotham</author>
+		</book>
+		<book id="1-84078-333-8">
+			<title>Photoshop Elements 5 in easy steps</title>
+			<author>Nick Vandome</author>
+		</book>
+		<book id="1-84078-276-5">
+			<title>Photoshop Projects in easy steps</title>
+			<author>John Slater</author>
+		</book>
+		<book id="1-84078-302-8">
+			<title>Illustrator CS2 in easy steps</title>
+			<author>Robert Shufflebotham</author>
+		</book>
+	</gfx>
+</catalog>

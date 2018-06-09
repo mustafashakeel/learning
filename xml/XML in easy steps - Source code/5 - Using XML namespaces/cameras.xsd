@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.ineasysteps.com/xsd" 
+xmlns:tns="http://www.ineasysteps.com/xsd" 
+xmlns:c="http://www.ineasysteps.com/canon"
+xmlns:n="http://www.ineasysteps.com/nikon" >
+
+
+
+<!-- IMPORT NAMESPACE SCHEMAS. -->
+<xsd:import namespace="http://www.ineasysteps.com/canon" schemaLocation="canon.xsd"/>
+<xsd:import namespace="http://www.ineasysteps.com/nikon" schemaLocation="nikon.xsd"/>
+
+
+<!-- DECLARE ELEMENTS. -->
+<xsd:element name="doc" type="tns:docType"/>
+	
+<!-- DEFINE STRUCTURES. -->
+<xsd:complexType name="docType">
+	<xsd:choice maxOccurs="20">
+		<xsd:element ref="c:camera" maxOccurs="20"/>
+		<xsd:element ref="n:camera" maxOccurs="20"/>
+	</xsd:choice>
+</xsd:complexType>
+	
+</xsd:schema>

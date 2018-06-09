@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movieList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="movieschema.xsd">
+	<movie>
+		<title rating="PG">Star Wars</title>
+		<rating>
+			<![CDATA[
+			Fantastic space opera. Fight between good & evil. Ground-breaking special effects.
+			]]>
+		</rating>
+	</movie>
+	<movie>
+		<title rating="PG-13">Spider-man</title>
+	</movie>
+	<movie>
+		<title rating="PG-13">Mr. &amp; Mrs. Smith</title>
+	</movie>
+</movieList>

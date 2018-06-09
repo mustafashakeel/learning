@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- XML in easy steps - Page 164. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Get All Data</title>
+<!-- XML in easy steps - p.164-165 -->
+
+<meta http-equiv = "Content-Type" content = "text/html;charset=UTF-8" />
+
+<script type="text/javascript">
+/* <![CDATA[ */
+
+// MIKE'S NOTE: the CDATA tags in these XHTML documents are 
+// enclosed within /* */ to prevent browser detection 
+// while still allowing the XHTML to be validated.
+
+var xmlDoc;
+
+function loadXmlDoc()
+{	
+  try
+  {
+	if (window.ActiveXObject)
+	{
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.async=false;
+		xmlDoc.load("books.xml");
+		getXmlData();
+	}
+	else if (document.implementation && document.implementation.createDocument)	
+	{
+		xmlDoc = document.implementation.createDocument("","",null);
+		xmlDoc.load("books.xml");
+		xmlDoc.onload=getXmlData;
+	}
+  }
+  catch(err)
+  {
+
+	document.getElementById("box").innerHTML = "XML data is unavailable";
+  }	
+}
+
+
+function getXmlData()
+{
+	// Get all <book> element nodes.
+	var nodeList = xmlDoc.getElementsByTagName("book");
+
+	// Initialize a variable with an empty string.
+	var data = "";
+
+	// Loop through all <book> element nodes.
+	for(i=0; i < nodeList.length; i++)
+	{
+		// Append the id attribute value to the string.
+		data += "ISBN: " + nodeList[i].getAttribute("id");
+
+		// Loop through each child node of the <book> element node.
+		for( j=0; j < nodeList[i].childNodes.length; j++)
+		{ 
+			if( nodeList[i].childNodes[j].nodeType == 1 )
+			{
+				// Append each child node name to the string.
+				data += "<br>" + 
+				nodeList[i].childNodes[j].nodeName.toUpperCase() ;
+
+				// Append each child node's text node value to the string.
+				data += ": " +
+				nodeList[i].childNodes[j].firstChild.nodeValue;
+			}
+		}
+
+		// Add a horizontal rule below each data set.
+		data += "<hr>";
+	}
+
+	// Display the string.
+	document.getElementById("box").innerHTML = data;
+}
+
+window.onload=loadXmlDoc;
+
+/* ]]> */
+</script>
+
+</head>
+
+<body>
+
+<div id = "box" style= "background:yellow;width:250px;padding:5px"> </div>
+
+</body>
+
+</html>

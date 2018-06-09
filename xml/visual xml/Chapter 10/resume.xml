@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xslt" href="aboutus.xslt" ?>
+<resume>
+	<name>Rob Huddleston</name>
+	<books>
+		<title>XML: Your visual blueprint for building expert Web sites with CSS, XHTML, and XSLT</title>
+		<isbn>978-0-471-93383-0</isbn>
+	</books>
+	<experience>
+		<jobtitle>Author</jobtitle>
+		<jobtitle>Instructor</jobtitle>
+	</experience>
+</resume>

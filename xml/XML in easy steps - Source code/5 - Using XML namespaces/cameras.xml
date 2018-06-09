@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 90. -->
+
+<?xml-stylesheet type="text/css" href="cameras.css" ?>
+	
+<doc 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.ineasysteps.com/xsd cameras.xsd" 
+xmlns="http://www.ineasysteps.com/xsd"
+xmlns:c="http://www.ineasysteps.com/canon" 
+xmlns:n="http://www.ineasysteps.com/nikon"
+xmlns:xlink = "http://www.w3.org/1999/xlink" >
+	
+	<c:camera xlink:href="pics/canon-wp1.png" xlink:type="simple" xlink:title="See this camera" xlink:show="new" xlink:actuate="onRequest">
+		<c:model>Canon Sureshot</c:model>
+		<c:item-code>WP-1</c:item-code>
+	</c:camera>
+ 	
+	<n:camera>
+		<n:version>Nikon Coolpix</n:version>
+		<n:model>L1</n:model>
+	</n:camera>
+
+
+	<c:camera>
+		<c:model>Canon Powershot</c:model>
+		<c:item-code>G-7</c:item-code>
+	</c:camera>
+ 		
+	<n:camera>
+		<n:version>Nikon Silver</n:version>
+		<n:model>D40</n:model>
+	</n:camera>
+
+	<n:camera>
+		<n:version>Nikon Digital</n:version>
+		<n:model>D50</n:model>
+	</n:camera>
+ 	
+</doc >

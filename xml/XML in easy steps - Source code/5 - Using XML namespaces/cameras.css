@@ -1,0 +1,15 @@
+@namespace c "http://www.ineasysteps.com/canon";
+@namespace n "http://www.ineasysteps.com/nikon";
+
+c|camera	{ display:block;background:lime; border:2px solid black; margin:5px; padding:5px; width:450px; }
+
+n|camera	{ display:block;background:yellow; border:2px solid red; margin:5px; padding:5px; width:450px;}
+
+
+<!-- Workaround for Internet Explorer. -->
+
+c\:camera	{ display:block; background:lime; border:2px solid black; margin:5px; padding:5px; width:450px; }
+
+
+n\:camera	{ display:block;background:yellow; border:2px solid red; margin:5px; padding:5px; width:450px; }
+

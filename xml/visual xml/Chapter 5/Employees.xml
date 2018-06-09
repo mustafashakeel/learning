@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataroot xmlns:od="urn:schemas-microsoft-com:officedata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="Employees.xsd" generated="2007-04-06T16:15:32">
+<Employees>
+<ID>1</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Freehafer</Last_x0020_Name>
+<First_x0020_Name>Nancy</First_x0020_Name>
+<E-mail_x0020_Address>nancy@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 1st Avenue</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>#http://northwindtraders.com#</Web_x0020_Page>
+</Employees>
+<Employees>
+<ID>2</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Cencini</Last_x0020_Name>
+<First_x0020_Name>Andrew</First_x0020_Name>
+<E-mail_x0020_Address>andrew@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Vice President, Sales</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 2nd Avenue</Address>
+<City>Bellevue</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Joined the company as a sales representative, was promoted to sales manager and was then named vice president of sales.</Notes>
+</Employees>
+<Employees>
+<ID>3</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Kotas</Last_x0020_Name>
+<First_x0020_Name>Jan</First_x0020_Name>
+<E-mail_x0020_Address>jan@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 3rd Avenue</Address>
+<City>Redmond</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Was hired as a sales associate and was promoted to sales representative.</Notes>
+</Employees>
+<Employees>
+<ID>4</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Sergienko</Last_x0020_Name>
+<First_x0020_Name>Mariya</First_x0020_Name>
+<E-mail_x0020_Address>mariya@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 4th Avenue</Address>
+<City>Kirkland</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+</Employees>
+<Employees>
+<ID>5</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Thorpe</Last_x0020_Name>
+<First_x0020_Name>Steven</First_x0020_Name>
+<E-mail_x0020_Address>steven@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Manager</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 5th Avenue</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Joined the company as a sales representative and was promoted to sales manager.  Fluent in French.</Notes>
+</Employees>
+<Employees>
+<ID>6</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Neipper</Last_x0020_Name>
+<First_x0020_Name>Michael</First_x0020_Name>
+<E-mail_x0020_Address>michael@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 6th Avenue</Address>
+<City>Redmond</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Fluent in Japanese and can read and write French, Portuguese, and Spanish.</Notes>
+</Employees>
+<Employees>
+<ID>7</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Zare</Last_x0020_Name>
+<First_x0020_Name>Robert</First_x0020_Name>
+<E-mail_x0020_Address>robert@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 7th Avenue</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+</Employees>
+<Employees>
+<ID>8</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Giussani</Last_x0020_Name>
+<First_x0020_Name>Laura</First_x0020_Name>
+<E-mail_x0020_Address>laura@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Coordinator</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 8th Avenue</Address>
+<City>Redmond</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Reads and writes French.</Notes>
+</Employees>
+<Employees>
+<ID>9</ID>
+<Company>Northwind Traders</Company>
+<Last_x0020_Name>Hellung-Larsen</Last_x0020_Name>
+<First_x0020_Name>Anne</First_x0020_Name>
+<E-mail_x0020_Address>anne@northwindtraders.com</E-mail_x0020_Address>
+<Job_x0020_Title>Sales Representative</Job_x0020_Title>
+<Business_x0020_Phone>(123)555-0100</Business_x0020_Phone>
+<Home_x0020_Phone>(123)555-0102</Home_x0020_Phone>
+<Fax_x0020_Number>(123)555-0103</Fax_x0020_Number>
+<Address>123 9th Avenue</Address>
+<City>Seattle</City>
+<State_x002F_Province>WA</State_x002F_Province>
+<ZIP_x002F_Postal_x0020_Code>99999</ZIP_x002F_Postal_x0020_Code>
+<Country_x002F_Region>USA</Country_x002F_Region>
+<Web_x0020_Page>http://northwindtraders.com#http://northwindtraders.com/#</Web_x0020_Page>
+<Notes>Fluent in French and German.</Notes>
+</Employees>
+</dataroot>

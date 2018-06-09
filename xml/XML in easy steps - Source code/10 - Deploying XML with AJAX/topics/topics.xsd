@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name="catalog">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="systems"/>
+				<xsd:element ref="office"/>
+				<xsd:element ref="media"/>
+				<xsd:element ref="web"/>
+				<xsd:element ref="prog"/>
+				<xsd:element ref="gfx"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="systems">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="office">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="media">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="web">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="prog">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="gfx">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="book" minOccurs="1" maxOccurs="unbounded"/>
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	
+	<xsd:element name="book">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="title"/>
+				<xsd:element ref="author"/>
+			</xsd:sequence>
+			<xsd:attribute name="id" use="required" type="xsd:string"/>
+		</xsd:complexType>
+	</xsd:element>
+		
+	<xsd:element name="title" type="xsd:string"/>
+
+	<xsd:element name="author" type="xsd:string"/>
+
+</xsd:schema>

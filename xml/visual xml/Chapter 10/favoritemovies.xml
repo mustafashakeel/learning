@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xsl-stylesheet type="text/xslt" href="favoritemovies.xslt" ?>
+<favoriteMovies>
+	<movie>
+		<title>Serenity</title>
+		<releaseYear>2005</releaseYear>
+		<director>Joss Whedon</director>
+	</movie>
+	<movie>
+		<title>Star Wars</title>
+		<releaseYear>1977</releaseYear>
+		<director>George Lucas</director>
+	</movie>
+	<movie>
+		<title>Memento</title>
+		<releaseYear>2002</releaseYear>
+		<director>Christopher Nolan</director>
+	</movie>
+</favoriteMovies>

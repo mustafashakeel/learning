@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 18. -->
+
+<?xml-stylesheet type = "text/css" href = "xmlspy.css" ?>
+
+<!DOCTYPE root SYSTEM "xmlspy.dtd">
+
+<root>
+
+	<msg>Creating XML Documents with XMLSpy</msg>
+
+</root>

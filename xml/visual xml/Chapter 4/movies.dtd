@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ENTITY % reviewContent "#PCDATA" >
+<!ELEMENT movieList (movie+) >
+<!ELEMENT movie (title+, review+) >
+<!ELEMENT review ( %reviewContent; ) >
+<!ATTLIST title rating (G | PG | PG-13 | R | NR) #REQUIRED >
+<!ENTITY siteref "ht`tp://www.movielist.com" >

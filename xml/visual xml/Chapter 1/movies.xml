@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movieList>
+	<movie>
+		<title rating="PG">Star Wars</title>
+	</movie>
+	<movie>
+		<title rating="PG-13">Spider-man</title>
+	</movie>
+	<movie>
+		<title rating="PG-13">Mr. &amp; Mrs. Smith</title>
+	</movie>
+</movieList>

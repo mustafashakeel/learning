@@ -1,0 +1,6 @@
+<!ELEMENT discography (artist, album+) >
+
+<!ELEMENT artist (#PCDATA)>
+<!ELEMENT album (#PCDATA)>
+
+<!ATTLIST album id CDATA #IMPLIED>

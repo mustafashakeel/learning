@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+		
+<doc 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.ineasysteps.com/nikon nikon.xsd" 
+xmlns = "http://www.ineasysteps.com/nikon" >
+	
+	<camera>
+		<version>Nikon Coolpix</version>
+		<model>L1</model>
+	</camera>
+
+	<camera>
+		<version>Nikon Silver</version>
+		<model>D40</model>
+	</camera>
+
+	<camera>
+		<version>Nikon Digital</version>
+		<model>D50</model>
+	</camera>	
+
+</doc>

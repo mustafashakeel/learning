@@ -1,0 +1,24 @@
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6	
+{	
+	position:absolute; top:20px; height:26px; 
+	font-family:Verdana,Arial,Helvetica,sans-serif; font-size:3mm;
+	padding:3px; 	
+}
+
+#tab1	{ left:20px;  width:60px; }
+#tab2	{ left:88px; width:70px;  }
+#tab3	{ left:166px; width:50px; }
+#tab4	{ left:224px; width:80px; }
+#tab5	{ left:312px; width:80px; }
+#tab6	{ left:400px; width:72px; }
+
+
+#box
+{	position:absolute; top:52px; left:20px; width:450px; 
+	font-family:Verdana,Arial,Helvetica,sans-serif; font-size:3mm;	
+	border:1px solid red; padding:3px
+}
+
+table 	{	width:100%; 	}
+
+img	{ border:0px solid white}

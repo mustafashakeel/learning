@@ -15,6 +15,10 @@ class PostsController extends Controller
     {
         return " It works the number is  ".$id; 
     }
+
+    public function testData(){
+        return " works ";
+    }
     public function data(){
         DB::insert('insert into posts(author,title,content) values(?,?,?)',['James','PHP   with Laravel','PHP Laravel is best thing in PHP']);
     }

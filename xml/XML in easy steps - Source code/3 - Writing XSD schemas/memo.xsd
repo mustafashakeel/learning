@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 48. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple type elements. -->
+<xsd:element name="title" type="xsd:string"/>
+<xsd:element name="from" type="xsd:string"/>
+<xsd:element name="to" type="xsd:string"/>
+<xsd:element name="msg" type="xsd:string"/>
+
+<!-- Complex type elements. -->
+<xsd:element name="doc" type="docType"/>
+<xsd:element name="memo" type="memoType"/>
+
+
+<!-- DEFINE STRUCTURES. -->
+<xsd:complexType name="docType">
+	<xsd:sequence>
+		<xsd:element ref="memo" />
+	</xsd:sequence>
+</xsd:complexType>
+
+<xsd:complexType name="memoType">
+	<xsd:sequence>
+		<xsd:element ref="title" />
+		<xsd:element ref="from" />
+		<xsd:element ref="to" />
+		<xsd:element ref="msg" />
+	</xsd:sequence>
+</xsd:complexType>
+	
+</xsd:schema>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 46. -->
+		
+<doc 	
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="hello.xsd" >
+	
+	<msg>Hello World!</msg>
+
+	<!-- Uncomment the next line to disobey schema rules. -->
+	<!-- <msg>Bad content</msg> -->
+	
+</doc>

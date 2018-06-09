@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 144. -->
+
+<svg	version="1.1" baseProfile="full"
+	xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	width="400px" height="300px" >
+
+
+<title>SVG Links</title>
+
+<!-- Defining a group. -->
+<defs>
+<g id = "exclaim" font-size = "48pt" >
+<circle r="30px" fill = "red" />
+<text x = "-10" y = "20" fill = "white" >!</text>
+</g>
+</defs>
+
+
+<!-- Using xlink:href. -->
+
+<!-- 1. Create a hyperlink. -->
+<a xlink:href="http://www.ineasysteps.com">
+<text x = "10" y = "150">Follow this link to discover more "in easy steps" books</text>
+</a>
+
+<!-- 2. Link to a script. -->
+<script type="text/javascript" xlink:href = "script.js" />
+
+<!-- 3. Reference a Path -->
+<path id = "fun-path" d="M40,120 Q50,-20 390,80" fill = "none" stroke = "none"/>
+<text fill = "red" font-size = "30pt" > 
+<textPath xlink:href="#fun-path">Having Fun with SVG</textPath> 
+</text>
+
+<!-- 4. Use a defined group. -->
+<use x="100" y="100" xlink:href = "#exclaim" />
+<use x="200" y="100" xlink:href = "#exclaim" />
+<use x="300" y="100" xlink:href = "#exclaim" />
+
+</svg>

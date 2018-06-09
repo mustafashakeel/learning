@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding = "UTF-8" ?>
+
+<!-- XML in easy steps - Page 84. -->
+
+<xsd:schema 
+xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.ineasysteps.com/xsd"
+xmlns:tns="http://www.ineasysteps.com/xsd"  >
+
+<!-- DECLARE ELEMENTS. -->	
+	
+<!-- Simple types. -->
+<xsd:element name="msg" type="xsd:string"/>
+
+<!-- Complex types. -->
+<xsd:element name="doc" type="tns:docType"/>
+	
+<!-- DEFINE STRUCTURE. -->
+
+<xsd:complexType name="docType">
+	<xsd:sequence>
+		<xsd:element ref="tns:msg"/>
+	</xsd:sequence>
+</xsd:complexType>
+
+</xsd:schema>

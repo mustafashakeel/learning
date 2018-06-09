@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Wiley</Author>
+  <LastAuthor>Wiley</LastAuthor>
+  <Created>2007-04-06T23:20:03Z</Created>
+  <LastSaved>2007-04-06T23:20:03Z</LastSaved>
+  <Company>Microsoft Corporation</Company>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>9120</WindowHeight>
+  <WindowWidth>11355</WindowWidth>
+  <WindowTopX>480</WindowTopX>
+  <WindowTopY>30</WindowTopY>
+  <CreateBackup/>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="MS Sans Serif"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Employees" ss:RefersTo="=Employees!R1C1:R10C18"/>
+ </Names>
+ <Worksheet ss:Name="Employees">
+  <Table ss:ExpandedColumnCount="18" ss:ExpandedRowCount="10" x:FullColumns="1"
+   x:FullRows="1">
+   <Row>
+    <Cell><Data ss:Type="String">ID</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Company</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Last Name</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">First Name</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">E-mail Address</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Job Title</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Business Phone</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Home Phone</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Mobile Phone</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Fax Number</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Address</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">City</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">State/Province</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">ZIP/Postal Code</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Country/Region</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Web Page</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Notes</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Attachments</Data><NamedCell ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">1</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Freehafer</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Nancy</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">nancy@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 1st Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Seattle</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">#http://northwindtraders.com#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">2</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Cencini</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Andrew</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">andrew@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Vice President, Sales</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 2nd Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Bellevue</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Joined the company as a sales representative, was promoted to sales manager and was then named vice president of sales.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">3</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Kotas</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Jan</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">jan@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 3rd Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Redmond</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Was hired as a sales associate and was promoted to sales representative.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">4</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sergienko</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Mariya</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">mariya@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 4th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Kirkland</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">5</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Thorpe</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Steven</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">steven@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Manager</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 5th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Seattle</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Joined the company as a sales representative and was promoted to sales manager.  Fluent in French.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">6</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Neipper</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Michael</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">michael@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 6th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Redmond</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Fluent in Japanese and can read and write French, Portuguese, and Spanish.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">7</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Zare</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Robert</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">robert@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 7th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Seattle</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">8</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Giussani</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Laura</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">laura@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Coordinator</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 8th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Redmond</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Reads and writes French.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="Number">9</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Northwind Traders</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Hellung-Larsen</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Anne</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">anne@northwindtraders.com</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Sales Representative</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0100</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">(123)555-0102</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell ss:Index="10"><Data ss:Type="String">(123)555-0103</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">123 9th Avenue</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Seattle</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">WA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">99999</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">USA</Data><NamedCell ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">http://northwindtraders.com#http://northwindtraders.com/#</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+    <Cell><Data ss:Type="String">Fluent in French and German.</Data><NamedCell
+      ss:Name="Employees"/></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

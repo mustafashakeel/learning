@@ -1,0 +1,5 @@
+discography	{ font-family:"Comic Sans MS" cursive; font-size:18pt; }
+
+artist	{ display:block;  font: bold 36pt; color:fuchsia; }
+
+album	{ display:block; width:325px; height:65px; padding-top:15px; background:no-repeat url(notes.png); }

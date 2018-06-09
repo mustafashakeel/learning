@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 32. -->
+	
+<!DOCTYPE contacts SYSTEM "contacts.dtd" >
+
+<contacts>
+
+	<title>Mr</title>
+	<forename>John</forename>
+
+	<!-- Uncomment the next line to break the schema rules. -->
+	<!-- <forename>William</forename> -->
+
+	<surname>Smith</surname>
+
+
+	<forename>Sally</forename>
+	<surname>James</surname>
+
+
+</contacts>

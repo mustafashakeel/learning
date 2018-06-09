@@ -19,7 +19,7 @@ Route::get('/', function () {
 });
 // Route::get('/post/{id}','PostsController@index');
 
-Route::get('/post','PostsController@index');
+Route::get('/post','PostsController@testData');
 
 // Route::get('/post/{id}/{name}',function($id,$name){
 // 	return "This Post number is ".$id."  ".$name; 

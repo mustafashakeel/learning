@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding ="UTF-8" ?>
+
+<!-- XML in easy steps - Page 54. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple type. -->
+<xsd:element name="artist" type="xsd:string"/>
+	
+<!-- Complex types. -->
+<xsd:element name="discography" type="discoType"/>
+<xsd:element name="album" type="albumType"/>
+
+	
+<!-- DEFINE STRUCTURES. -->
+
+<!-- Sequence structure. -->
+<xsd:complexType name="discoType">
+	<xsd:sequence>
+		<xsd:element ref="artist"/>
+		<xsd:element ref="album" maxOccurs="unbounded"/>
+	</xsd:sequence>
+</xsd:complexType>
+	
+<!-- Structure of the <album> element. -->
+<xsd:complexType name="albumType">
+	<xsd:simpleContent>
+		<xsd:extension base="xsd:string">
+			<xsd:attribute name="id" type="xsd:string"/>
+		</xsd:extension>
+	</xsd:simpleContent>
+</xsd:complexType>
+
+</xsd:schema>

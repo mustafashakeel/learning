@@ -1,0 +1,15 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+	<start>	
+		<element name="movieList">
+			<oneOrMore>
+				<element name="movie">
+					<oneOrMore>
+						<element name="title">
+							<text />
+						</element>
+					</oneOrMore>
+				</element>
+			</oneOrMore>
+		</element>
+	</start>
+</grammar>

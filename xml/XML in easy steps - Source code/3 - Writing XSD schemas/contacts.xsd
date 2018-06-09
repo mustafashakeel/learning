@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- XML in easy steps - Page 50. -->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" >
+
+<!-- DECLARE ELEMENTS. -->
+
+<!-- Simple type elements. -->
+<xsd:element name="title" type="xsd:string"/>
+<xsd:element name="forename" type="xsd:string" />
+<xsd:element name="surname" type="xsd:string"/>
+
+<!-- Complex type elements. -->
+<xsd:element name="contacts" type="contactsType"/>
+
+
+<!-- DEFINE STRUCTURE. -->
+
+<xsd:complexType name="contactsType">
+
+<!-- Let the sequence occur indefinitely, but at least once. -->
+  <xsd:sequence minOccurs="1" maxOccurs="unbounded" >
+
+	<!-- Let the title be optional, but not occur more than once. -->
+	<xsd:element ref="title" minOccurs="0" maxOccurs="1"/>
+
+	<xsd:element ref="forename" />
+	<xsd:element ref="surname" />
+  </xsd:sequence>
+</xsd:complexType>
+
+</xsd:schema>

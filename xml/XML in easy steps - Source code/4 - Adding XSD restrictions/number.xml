@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- XML in easy steps - Page 62. -->
+
+<doc 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="number.xsd" >
+
+	<!-- Acceptable integer content. -->
+	<int>123</int>
+	<int>-123</int>
+	<int>0</int>
+
+	<!-- Acceptable positive integer content. -->
+	<pos>123</pos>
+	<!-- But not 0 or -123 -->	
+
+	<!-- Acceptable negative integer content. -->
+	<neg>-123</neg>
+	<neg>0</neg>
+
+	<!-- Acceptable decimal content. -->
+	<dec>12345.67890</dec>
+	<dec>0.000</dec>
+	<dec>-12345.67890</dec>
+
+	<!-- Acceptable float content. -->
+	<flt>0.12345678901234567890123456789</flt>
+	<flt>0.00000000000000000000000000000</flt>
+	<flt>-0.12345678901234567890123456789</flt>
+
+</doc>

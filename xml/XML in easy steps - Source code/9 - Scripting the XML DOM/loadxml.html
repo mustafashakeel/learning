@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!-- XML in easy steps - Page 154. -->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<title>Loading XML Data</title>
+<!-- XML in easy steps - p.154-157 -->
+
+<meta http-equiv = "Content-Type" content = "text/html;charset=UTF-8" />
+
+<!-- 1. Add a JavaScript code area. -->
+<script type="text/javascript">
+/* <![CDATA[ */
+
+// MIKE'S NOTE: the CDATA tags in these XHTML documents are 
+// enclosed within /* */ to prevent browser detection 
+// while still allowing the XHTML to be validated.
+
+// 2. Declare a global variable to store XML representation.
+var xmlDoc;
+
+
+// 3. Create a function to load XML data.
+function loadXmlDoc()
+{
+  // 14. Provide the ability to fail gracefully.	
+  try
+  {
+	// 4. Conditional test for ActiveX with Internet Explorer.	
+	if (window.ActiveXObject)
+	{
+		// 5. Statements to load XML document. 
+		xmlDoc = new ActiveXObject("Microsoft.XMLDOM");
+		xmlDoc.async=false;
+		xmlDoc.load("tree.xml");
+
+		// 9. Call the function to display data.
+		getXmlData();
+	}
+
+	// 10.Conditional test for document.implementation with Firefox.
+	else if (document.implementation && document.implementation.createDocument)	
+	{
+		// 11. Statements to load XML document.
+		xmlDoc = document.implementation.createDocument("","",null);
+		xmlDoc.load("tree.xml");
+
+		// 12. Call the function to display data.
+		xmlDoc.onload=getXmlData;
+	}
+  }
+  catch(err)
+  {
+	// 13. Default message to display if XML data cannot be loaded.
+	document.getElementById("box").innerHTML = "XML data is unavailable";
+  }	
+}
+
+// 8. Function to display XML data.
+function getXmlData()
+{
+	// Get the root element node name.
+	var node = xmlDoc.documentElement.nodeName;
+
+	// Add the root node name to a string;
+	var data = "Root Element Name is: " + node;
+
+	// Display the string.
+	document.getElementById("box").innerHTML = data;
+
+}
+
+// 6. Call the XML loader function when the HTML document has loaded.
+window.onload=loadXmlDoc;
+
+/* ]]> */
+</script>
+
+</head>
+
+<body>
+
+<!-- 7. A div area where data can be displayed. -->
+<div id = "box" style= "background:yellow;width:250px;padding:5px" />
+
+</body>
+
+</html>
